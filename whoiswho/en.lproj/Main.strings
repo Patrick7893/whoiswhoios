@@ -1,0 +1,125 @@
+
+/* Class = "UILabel"; text = "9"; ObjectID = "2vE-If-Sei"; */
+"2vE-If-Sei.text" = "9";
+
+/* Class = "UIButton"; normalTitle = "smsButton"; ObjectID = "3FU-kR-5T0"; */
+"3FU-kR-5T0.normalTitle" = "smsButton";
+
+/* Class = "UILabel"; text = "WXYZ"; ObjectID = "5A3-eP-MDH"; */
+"5A3-eP-MDH.text" = "WXYZ";
+
+/* Class = "UILabel"; text = "MNO"; ObjectID = "Al8-cr-ywa"; */
+"Al8-cr-ywa.text" = "MNO";
+
+/* Class = "UILabel"; text = "hui"; ObjectID = "C9N-3C-i4B"; */
+"C9N-3C-i4B.text" = "hui";
+
+/* Class = "UIButton"; normalTitle = "Call Button"; ObjectID = "CJv-hf-DDK"; */
+"CJv-hf-DDK.normalTitle" = "Call Button";
+
+/* Class = "UILabel"; text = "ABC"; ObjectID = "CbB-U4-4m8"; */
+"CbB-U4-4m8.text" = "ABC";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "EaB-aI-jmw"; */
+"EaB-aI-jmw.text" = "1";
+
+/* Class = "UILabel"; text = "+380 95 817 7978"; ObjectID = "FaC-Sx-tjW"; */
+"FaC-Sx-tjW.text" = "+380 95 817 7978";
+
+/* Class = "UINavigationItem"; title = "Contacts"; ObjectID = "LID-dw-rbn"; */
+"LID-dw-rbn.title" = "Contacts";
+
+/* Class = "UILabel"; text = "Contact Name"; ObjectID = "Oeq-PR-IbU"; */
+"Oeq-PR-IbU.text" = "Contact Name";
+
+/* Class = "UINavigationItem"; title = "Calls"; ObjectID = "Sgu-to-7zv"; */
+"Sgu-to-7zv.title" = "Calls";
+
+/* Class = "UILabel"; text = "Ukraine"; ObjectID = "Srl-xb-hLL"; */
+"Srl-xb-hLL.text" = "Ukraine";
+
+/* Class = "UILabel"; text = "TUV"; ObjectID = "T9C-0W-c3p"; */
+"T9C-0W-c3p.text" = "TUV";
+
+/* Class = "UINavigationItem"; title = "Contact Info"; ObjectID = "TgX-d8-ReI"; */
+"TgX-d8-ReI.title" = "Contact Info";
+
+/* Class = "UILabel"; text = "3"; ObjectID = "U3F-1q-r1R"; */
+"U3F-1q-r1R.text" = "3";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "UvU-xi-g1C"; */
+"UvU-xi-g1C.text" = "2";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VNM-8m-OnX"; */
+"VNM-8m-OnX.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "*"; ObjectID = "W3c-E3-mQc"; */
+"W3c-E3-mQc.text" = "*";
+
+/* Class = "UITextField"; placeholder = "Search"; ObjectID = "WKY-AV-mlM"; */
+"WKY-AV-mlM.placeholder" = "Search";
+
+/* Class = "UILabel"; text = "Редактировать контакт"; ObjectID = "XnS-UH-Qbd"; */
+"XnS-UH-Qbd.text" = "Редактировать контакт";
+
+/* Class = "UILabel"; text = "+"; ObjectID = "ZqD-bO-YWA"; */
+"ZqD-bO-YWA.text" = "+";
+
+/* Class = "UITabBarItem"; title = "Contacts"; ObjectID = "cYU-8c-O1F"; */
+"cYU-8c-O1F.title" = "Contacts";
+
+/* Class = "UILabel"; text = "+380958177978"; ObjectID = "cga-rx-Wj0"; */
+"cga-rx-Wj0.text" = "+380958177978";
+
+/* Class = "UILabel"; text = "#"; ObjectID = "doN-KN-XjM"; */
+"doN-KN-XjM.text" = "#";
+
+/* Class = "UIView"; accessibilityLabel = "1"; ObjectID = "e16-vg-see"; */
+"e16-vg-see.accessibilityLabel" = "1";
+
+/* Class = "UILabel"; text = "6"; ObjectID = "eSx-aW-9xs"; */
+"eSx-aW-9xs.text" = "6";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "fIH-8B-n9Q"; */
+"fIH-8B-n9Q.text" = "0";
+
+/* Class = "UILabel"; text = "Life ;)"; ObjectID = "g9b-cu-rWD"; */
+"g9b-cu-rWD.text" = "Life ;)";
+
+/* Class = "UILabel"; text = "сотовый - Сeгодня, 13:09"; ObjectID = "gS6-Lp-pyK"; */
+"gS6-Lp-pyK.text" = "сотовый - Сeгодня, 13:09";
+
+/* Class = "UILabel"; text = "DEF"; ObjectID = "hWO-un-TCf"; */
+"hWO-un-TCf.text" = "DEF";
+
+/* Class = "UILabel"; text = "GHI"; ObjectID = "hem-ha-mXH"; */
+"hem-ha-mXH.text" = "GHI";
+
+/* Class = "UILabel"; text = "7"; ObjectID = "hhe-AI-2yv"; */
+"hhe-AI-2yv.text" = "7";
+
+/* Class = "UILabel"; text = "4"; ObjectID = "je4-fD-AfW"; */
+"je4-fD-AfW.text" = "4";
+
+/* Class = "UILabel"; text = "5"; ObjectID = "kWn-9u-rkZ"; */
+"kWn-9u-rkZ.text" = "5";
+
+/* Class = "UILabel"; text = "JKL"; ObjectID = "lae-ix-lH1"; */
+"lae-ix-lH1.text" = "JKL";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "nsi-Lv-9MD"; */
+"nsi-Lv-9MD.title" = "Search";
+
+/* Class = "UILabel"; text = "PQRS"; ObjectID = "rsK-9O-rm3"; */
+"rsK-9O-rm3.text" = "PQRS";
+
+/* Class = "UILabel"; text = "8"; ObjectID = "two-hq-gkS"; */
+"two-hq-gkS.text" = "8";
+
+/* Class = "UITabBarItem"; title = "Call"; ObjectID = "uUp-Qq-CvI"; */
+"uUp-Qq-CvI.title" = "Call";
+
+/* Class = "UILabel"; text = "Name Label"; ObjectID = "vOK-F9-bM3"; */
+"vOK-F9-bM3.text" = "Name Label";
+
+"hui" = "fewfwe";

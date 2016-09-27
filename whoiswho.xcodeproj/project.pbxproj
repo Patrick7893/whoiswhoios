@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3818A9301D90176F008F0F6F /* PhoneFromatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3818A92F1D90176F008F0F6F /* PhoneFromatter.swift */; };
+		3818A9331D903D24008F0F6F /* CustomContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3818A9321D903D24008F0F6F /* CustomContactViewController.swift */; };
+		38440BB71D94129300C27724 /* CallListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38440BB61D94129300C27724 /* CallListViewController.swift */; };
+		385E42CD1D91513900786F3A /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385E42CC1D91513900786F3A /* Phone.swift */; };
+		385E42D41D915A6400786F3A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385E42D31D915A6400786F3A /* SearchViewController.swift */; };
+		385E42D61D915FDC00786F3A /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385E42D51D915FDC00786F3A /* SearchTableViewCell.swift */; };
+		385E42D91D9175AD00786F3A /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385E42D81D9175AD00786F3A /* ApiManager.swift */; };
+		385E42DB1D91902800786F3A /* SearchPhonesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385E42DA1D91902800786F3A /* SearchPhonesResponse.swift */; };
+		385E42DD1D9286AE00786F3A /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385E42DC1D9286AE00786F3A /* Contact.swift */; };
 		3866605C1D88412200FAB1BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3866605B1D88412200FAB1BC /* AppDelegate.swift */; };
-		3866605E1D88412200FAB1BC /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3866605D1D88412200FAB1BC /* FirstViewController.swift */; };
-		386660601D88412200FAB1BC /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3866605F1D88412200FAB1BC /* SecondViewController.swift */; };
 		386660631D88412200FAB1BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386660611D88412200FAB1BC /* Main.storyboard */; };
 		386660651D88412200FAB1BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386660641D88412200FAB1BC /* Assets.xcassets */; };
 		386660681D88412200FAB1BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386660661D88412200FAB1BC /* LaunchScreen.storyboard */; };
 		386660731D88412200FAB1BC /* whoiswhoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386660721D88412200FAB1BC /* whoiswhoTests.swift */; };
 		3866607E1D88412200FAB1BC /* whoiswhoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3866607D1D88412200FAB1BC /* whoiswhoUITests.swift */; };
+		3866608C1D89629300FAB1BC /* ContactsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3866608B1D89629300FAB1BC /* ContactsCell.swift */; };
+		3866608F1D8989B200FAB1BC /* ContatcsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3866608E1D8989B200FAB1BC /* ContatcsManager.swift */; };
+		386A2B751D93EEEB0046CB86 /* NumPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386A2B741D93EEEB0046CB86 /* NumPadViewController.swift */; };
+		38B0D1691D9925DC00531C9B /* HighLightedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B0D1681D9925DC00531C9B /* HighLightedButton.swift */; };
+		38B0D16B1D9928B900531C9B /* RoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B0D16A1D9928B900531C9B /* RoundedImageView.swift */; };
+		38B0D16D1D992F7B00531C9B /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B0D16C1D992F7B00531C9B /* Call.swift */; };
+		38B0D16F1D99589100531C9B /* CallsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38B0D16E1D99589100531C9B /* CallsCell.swift */; };
+		38BA2A7C1D8C27C9009D93CD /* ContactsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA2A7B1D8C27C9009D93CD /* ContactsTableView.swift */; };
+		38BA2A7F1D8C2DB8009D93CD /* ContactInfoTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA2A7E1D8C2DB8009D93CD /* ContactInfoTableView.swift */; };
+		38BA2A811D8C2DDC009D93CD /* PhoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA2A801D8C2DDC009D93CD /* PhoneCell.swift */; };
+		38BA2A831D8C2E38009D93CD /* ActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BA2A821D8C2E38009D93CD /* ActionCell.swift */; };
+		393EEAD358CB989B48588688 /* Pods_whoiswho.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907C99A7D4C2CCD602A77B6C /* Pods_whoiswho.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +54,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3818A92F1D90176F008F0F6F /* PhoneFromatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneFromatter.swift; sourceTree = "<group>"; };
+		3818A9321D903D24008F0F6F /* CustomContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomContactViewController.swift; sourceTree = "<group>"; };
+		38440BB61D94129300C27724 /* CallListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallListViewController.swift; sourceTree = "<group>"; };
+		385E42CC1D91513900786F3A /* Phone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		385E42D31D915A6400786F3A /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		385E42D51D915FDC00786F3A /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		385E42D81D9175AD00786F3A /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		385E42DA1D91902800786F3A /* SearchPhonesResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPhonesResponse.swift; sourceTree = "<group>"; };
+		385E42DC1D9286AE00786F3A /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		386660581D88412200FAB1BC /* whoiswho.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = whoiswho.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3866605B1D88412200FAB1BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3866605D1D88412200FAB1BC /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3866605F1D88412200FAB1BC /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		386660621D88412200FAB1BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		386660641D88412200FAB1BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		386660671D88412200FAB1BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		386660691D88412200FAB1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3866606E1D88412200FAB1BC /* whoiswhoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whoiswhoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		386660721D88412200FAB1BC /* whoiswhoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whoiswhoTests.swift; sourceTree = "<group>"; };
 		386660741D88412200FAB1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		386660791D88412200FAB1BC /* whoiswhoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = whoiswhoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3866607D1D88412200FAB1BC /* whoiswhoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whoiswhoUITests.swift; sourceTree = "<group>"; };
 		3866607F1D88412200FAB1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3866608B1D89629300FAB1BC /* ContactsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsCell.swift; sourceTree = "<group>"; };
+		3866608E1D8989B200FAB1BC /* ContatcsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContatcsManager.swift; sourceTree = "<group>"; };
+		386A2B741D93EEEB0046CB86 /* NumPadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumPadViewController.swift; sourceTree = "<group>"; };
+		38B0D1681D9925DC00531C9B /* HighLightedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighLightedButton.swift; sourceTree = "<group>"; };
+		38B0D16A1D9928B900531C9B /* RoundedImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedImageView.swift; sourceTree = "<group>"; };
+		38B0D16C1D992F7B00531C9B /* Call.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
+		38B0D16E1D99589100531C9B /* CallsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallsCell.swift; sourceTree = "<group>"; };
+		38B0D1701D9A7FA500531C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		38BA2A7B1D8C27C9009D93CD /* ContactsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableView.swift; sourceTree = "<group>"; };
+		38BA2A7E1D8C2DB8009D93CD /* ContactInfoTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoTableView.swift; sourceTree = "<group>"; };
+		38BA2A801D8C2DDC009D93CD /* PhoneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneCell.swift; sourceTree = "<group>"; };
+		38BA2A821D8C2E38009D93CD /* ActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionCell.swift; sourceTree = "<group>"; };
+		38C938411D9A818E00F083E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		3D9392529CEC999EA76CBB8B /* Pods-whoiswho.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whoiswho.debug.xcconfig"; path = "Pods/Target Support Files/Pods-whoiswho/Pods-whoiswho.debug.xcconfig"; sourceTree = "<group>"; };
+		907C99A7D4C2CCD602A77B6C /* Pods_whoiswho.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_whoiswho.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4E66E71ABD1694C88008011 /* Pods-whoiswho.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-whoiswho.release.xcconfig"; path = "Pods/Target Support Files/Pods-whoiswho/Pods-whoiswho.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				393EEAD358CB989B48588688 /* Pods_whoiswho.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +118,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3818A9311D903CFD008F0F6F /* custom views */ = {
+			isa = PBXGroup;
+			children = (
+				3818A9321D903D24008F0F6F /* CustomContactViewController.swift */,
+				38B0D1681D9925DC00531C9B /* HighLightedButton.swift */,
+				38B0D16A1D9928B900531C9B /* RoundedImageView.swift */,
+			);
+			name = "custom views";
+			sourceTree = "<group>";
+		};
+		385E42CE1D91589100786F3A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				385E42D31D915A6400786F3A /* SearchViewController.swift */,
+				385E42D51D915FDC00786F3A /* SearchTableViewCell.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		385E42D71D91759100786F3A /* api */ = {
+			isa = PBXGroup;
+			children = (
+				385E42D81D9175AD00786F3A /* ApiManager.swift */,
+				385E42DA1D91902800786F3A /* SearchPhonesResponse.swift */,
+			);
+			name = api;
+			sourceTree = "<group>";
+		};
 		3866604F1D88412200FAB1BC = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +153,8 @@
 				386660711D88412200FAB1BC /* whoiswhoTests */,
 				3866607C1D88412200FAB1BC /* whoiswhoUITests */,
 				386660591D88412200FAB1BC /* Products */,
+				AA12EE767A2240636C247B0B /* Pods */,
+				7FE8CC96CF76A18DA0C49579 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +171,16 @@
 		3866605A1D88412200FAB1BC /* whoiswho */ = {
 			isa = PBXGroup;
 			children = (
+				385E42D71D91759100786F3A /* api */,
+				3818A9311D903CFD008F0F6F /* custom views */,
+				38BA2A791D8C2627009D93CD /* UI */,
+				386660901D898CC300FAB1BC /* model */,
+				3866608D1D89898900FAB1BC /* utils */,
 				3866605B1D88412200FAB1BC /* AppDelegate.swift */,
-				3866605D1D88412200FAB1BC /* FirstViewController.swift */,
-				3866605F1D88412200FAB1BC /* SecondViewController.swift */,
 				386660611D88412200FAB1BC /* Main.storyboard */,
 				386660641D88412200FAB1BC /* Assets.xcassets */,
 				386660661D88412200FAB1BC /* LaunchScreen.storyboard */,
-				386660691D88412200FAB1BC /* Info.plist */,
+				38B0D1711D9A7FA500531C9B /* Info.plist */,
 			);
 			path = whoiswho;
 			sourceTree = "<group>";
@@ -128,6 +203,82 @@
 			path = whoiswhoUITests;
 			sourceTree = "<group>";
 		};
+		3866608D1D89898900FAB1BC /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				3866608E1D8989B200FAB1BC /* ContatcsManager.swift */,
+				3818A92F1D90176F008F0F6F /* PhoneFromatter.swift */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		386660901D898CC300FAB1BC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				385E42CC1D91513900786F3A /* Phone.swift */,
+				385E42DC1D9286AE00786F3A /* Contact.swift */,
+				38B0D16C1D992F7B00531C9B /* Call.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		386A2B731D93EED10046CB86 /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				386A2B741D93EEEB0046CB86 /* NumPadViewController.swift */,
+				38440BB61D94129300C27724 /* CallListViewController.swift */,
+				38B0D16E1D99589100531C9B /* CallsCell.swift */,
+			);
+			name = Call;
+			sourceTree = "<group>";
+		};
+		38BA2A791D8C2627009D93CD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				386A2B731D93EED10046CB86 /* Call */,
+				385E42CE1D91589100786F3A /* Search */,
+				38BA2A7D1D8C28F8009D93CD /* ContactInfo */,
+				38BA2A7A1D8C27A3009D93CD /* Contacts */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		38BA2A7A1D8C27A3009D93CD /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				3866608B1D89629300FAB1BC /* ContactsCell.swift */,
+				38BA2A7B1D8C27C9009D93CD /* ContactsTableView.swift */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		38BA2A7D1D8C28F8009D93CD /* ContactInfo */ = {
+			isa = PBXGroup;
+			children = (
+				38BA2A7E1D8C2DB8009D93CD /* ContactInfoTableView.swift */,
+				38BA2A801D8C2DDC009D93CD /* PhoneCell.swift */,
+				38BA2A821D8C2E38009D93CD /* ActionCell.swift */,
+			);
+			name = ContactInfo;
+			sourceTree = "<group>";
+		};
+		7FE8CC96CF76A18DA0C49579 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				907C99A7D4C2CCD602A77B6C /* Pods_whoiswho.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA12EE767A2240636C247B0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D9392529CEC999EA76CBB8B /* Pods-whoiswho.debug.xcconfig */,
+				A4E66E71ABD1694C88008011 /* Pods-whoiswho.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 386660821D88412200FAB1BC /* Build configuration list for PBXNativeTarget "whoiswho" */;
 			buildPhases = (
+				DB919B359ED5A6B93F05D939 /* [CP] Check Pods Manifest.lock */,
 				386660541D88412200FAB1BC /* Sources */,
 				386660551D88412200FAB1BC /* Frameworks */,
 				386660561D88412200FAB1BC /* Resources */,
+				4D2C202B3EF03CE467F09B2C /* [CP] Embed Pods Frameworks */,
+				569AE5BA89BBCED763100390 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,13 +350,17 @@
 				TargetAttributes = {
 					386660571D88412200FAB1BC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W35UX4WP5B;
+						LastSwiftMigration = 0800;
 					};
 					3866606D1D88412200FAB1BC = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 386660571D88412200FAB1BC;
 					};
 					386660781D88412200FAB1BC = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 386660571D88412200FAB1BC;
 					};
 				};
@@ -254,14 +412,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D2C202B3EF03CE467F09B2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whoiswho/Pods-whoiswho-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		569AE5BA89BBCED763100390 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-whoiswho/Pods-whoiswho-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB919B359ED5A6B93F05D939 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		386660541D88412200FAB1BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				386660601D88412200FAB1BC /* SecondViewController.swift in Sources */,
+				38BA2A7F1D8C2DB8009D93CD /* ContactInfoTableView.swift in Sources */,
+				38BA2A831D8C2E38009D93CD /* ActionCell.swift in Sources */,
+				38BA2A811D8C2DDC009D93CD /* PhoneCell.swift in Sources */,
+				3818A9301D90176F008F0F6F /* PhoneFromatter.swift in Sources */,
+				385E42DD1D9286AE00786F3A /* Contact.swift in Sources */,
+				38BA2A7C1D8C27C9009D93CD /* ContactsTableView.swift in Sources */,
+				3866608C1D89629300FAB1BC /* ContactsCell.swift in Sources */,
+				385E42D41D915A6400786F3A /* SearchViewController.swift in Sources */,
+				386A2B751D93EEEB0046CB86 /* NumPadViewController.swift in Sources */,
+				385E42DB1D91902800786F3A /* SearchPhonesResponse.swift in Sources */,
+				385E42D61D915FDC00786F3A /* SearchTableViewCell.swift in Sources */,
+				38B0D1691D9925DC00531C9B /* HighLightedButton.swift in Sources */,
+				38440BB71D94129300C27724 /* CallListViewController.swift in Sources */,
 				3866605C1D88412200FAB1BC /* AppDelegate.swift in Sources */,
-				3866605E1D88412200FAB1BC /* FirstViewController.swift in Sources */,
+				385E42D91D9175AD00786F3A /* ApiManager.swift in Sources */,
+				38B0D16B1D9928B900531C9B /* RoundedImageView.swift in Sources */,
+				38B0D16F1D99589100531C9B /* CallsCell.swift in Sources */,
+				3818A9331D903D24008F0F6F /* CustomContactViewController.swift in Sources */,
+				3866608F1D8989B200FAB1BC /* ContatcsManager.swift in Sources */,
+				38B0D16D1D992F7B00531C9B /* Call.swift in Sources */,
+				385E42CD1D91513900786F3A /* Phone.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +525,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				386660621D88412200FAB1BC /* Base */,
+				38C938411D9A818E00F083E6 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -313,6 +538,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		38B0D1711D9A7FA500531C9B /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38B0D1701D9A7FA500531C9B /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -320,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -358,6 +592,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -366,6 +601,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -396,6 +632,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -403,23 +640,35 @@
 		};
 		386660831D88412200FAB1BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9392529CEC999EA76CBB8B /* Pods-whoiswho.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = whoiswho/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unteleported.whoiswho;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		386660841D88412200FAB1BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4E66E71ABD1694C88008011 /* Pods-whoiswho.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = whoiswho/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unteleported.whoiswho;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -431,6 +680,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unteleported.whoiswhoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/whoiswho.app/whoiswho";
 			};
 			name = Debug;
@@ -443,6 +693,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unteleported.whoiswhoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/whoiswho.app/whoiswho";
 			};
 			name = Release;
@@ -454,6 +705,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unteleported.whoiswhoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = whoiswho;
 			};
 			name = Debug;
@@ -465,6 +717,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.unteleported.whoiswhoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = whoiswho;
 			};
 			name = Release;
@@ -488,6 +741,7 @@
 				386660841D88412200FAB1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		386660851D88412200FAB1BC /* Build configuration list for PBXNativeTarget "whoiswhoTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +750,7 @@
 				386660871D88412200FAB1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		386660881D88412200FAB1BC /* Build configuration list for PBXNativeTarget "whoiswhoUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +759,7 @@
 				3866608A1D88412200FAB1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

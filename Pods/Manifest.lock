@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (4.0.0)
+  - JSONJoy-Swift (2.0.1)
+  - Realm (1.1.0):
+    - Realm/Headers (= 1.1.0)
+  - Realm/Headers (1.1.0)
+  - RealmSwift (1.1.0):
+    - Realm (= 1.1.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - JSONJoy-Swift (~> 2.0.1)
+  - RealmSwift
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  JSONJoy-Swift: 9e3d2c20cadbfdd8cd56f1f4d5733d80ce2ffa09
+  Realm: ceecf1a4540c4ce9efe196fe73fa9855bce05bd8
+  RealmSwift: 838058b2db95b12cb86bd0cf209df642c33fb60a
+
+PODFILE CHECKSUM: a3f676bebb226e85bc1e0e82bf6a4a6972693dc7
+
+COCOAPODS: 1.0.1
